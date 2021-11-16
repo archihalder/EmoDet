@@ -5,12 +5,12 @@ from keras.preprocessing import image
 import cv2
 import numpy as np
 
-face_classifier = cv2.CascadeClassifier(r'C:\Users\hp\Desktop\Project\Face Detection using OpenCV\haarcascade_frontalface_default.xml')
+face_classifier = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')
 classifier =load_model(r'model1.h5')
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
-cap = cv2.VideoCapture(r'C:\Users\hp\OneDrive\Documents\Friends_ Joey.mp4')
+cap = cv2.VideoCapture(r'Friends_ Joey.mp4')
 
 
 
