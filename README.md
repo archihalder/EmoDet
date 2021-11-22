@@ -1,4 +1,4 @@
-<h1><center> EmoDet </center></h1>
+<h1 align='center'>EmoDet</h1>
 
 ### Description
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 4. Run the file
 
 ```bash
-python3 video.py
+python3 src/video.py
 ```
 
 ---
