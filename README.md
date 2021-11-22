@@ -40,10 +40,16 @@ cd EmoDet
 pip install -r requirements.txt
 ```
 
-4. Run the file
+4. Enter src directory
 
 ```bash
-python3 src/video.py
+cd src
+```
+
+5. Run the file
+
+```bash
+python3 video.py
 ```
 
 ---
